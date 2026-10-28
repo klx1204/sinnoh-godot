@@ -1,0 +1,36 @@
+# Godot 4
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# Godot 导出产物
+/build/
+/export/
+*.pck
+*.zip.tmp
+index.wasm
+index.pck
+index.html
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+.vscode/
+.idea/
+
+# 从 ROM 生成的资产与数据（不入库，需本地用工具链生成）
+/data/**
+!/data/.gitkeep
+/assets/**
+!/assets/.gitkeep
+
+# apicula / romkit 中间产物
+*.nsbmd
+*.nsbtx
+*.nsbca
+*.nds
+*.gba
